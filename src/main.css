@@ -1,0 +1,233 @@
+body {
+  background-color: #fafafa !important;
+  height: 100vh !important;
+}
+
+/* GOOGLE FONTS  */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+#index-card {
+  height: auto;
+  background: url("/images/Rectangle-12.png");
+}
+
+.brand-mark {
+  width: 68px;
+  height: 44px;
+}
+
+.white {
+  background-color: #ffffff !important;
+}
+
+.accent {
+  background: #633153 !important;
+}
+
+.accent-text {
+  color: #633153 !important;
+}
+
+.accent-2 {
+  background: #e3d3de !important;
+}
+
+.accent-text-2 {
+  color: #e3d3de !important;
+}
+
+.status-box {
+  height: 15px !important;
+  width: 15px;
+  margin: 2px;
+}
+@media (max-width: 768px) {
+  .form-signin,
+  .form-signup {
+    min-width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .sidebar .offcanvas-lg .offcanvas-body {
+    position: absolute;
+    position: sticky !important;
+    top: 0px !important;
+  }
+  .navbar-search {
+    display: block;
+  }
+  .sidebar {
+    height: 100vh !important;
+    position: fixed !important;
+    position: -webkit-sticky !important;
+  }
+
+  .form-signin {
+    min-width: 40%;
+    border-color: #633153;
+  }
+
+  .form-signup {
+    min-width: 40%;
+  }
+}
+
+.form-signin,
+.form-signup {
+  border: solid #633153 0.1rem !important;
+}
+
+.form-signup input,
+.form-signin input {
+  padding: 0.7rem 0.4rem;
+}
+
+.form-signup ::placeholder,
+.form-signin ::placeholder {
+  font-size: small;
+}
+
+.side-nav-body {
+  height: 100vh !important;
+}
+.sidebar a {
+  display: flex;
+  text-decoration: none;
+  color: #633153;
+  padding: 0.5rem;
+  padding-left: 2rem;
+}
+
+.sidebar a.active {
+  background-color: #633153;
+  color: white;
+}
+
+.sidebar a:hover {
+  background-color: #e3d3de;
+  color: #633153;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #e3d3de;
+  color: #633153;
+}
+
+.logout-btn {
+  color: #ff001a;
+}
+
+.badge {
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 13px;
+  padding: 2px 6px;
+  position: absolute;
+  right: 2px;
+  top: 8px;
+}
+
+#nav-tab button {
+  padding: 8px 10px;
+}
+
+.profile_info {
+  font-size: small;
+  font-weight: bold;
+}
+.profile_info small {
+  font-size: x-small;
+  font-weight: 600;
+}
+
+.getapikey {
+  border: solid #633153 0.5px !important;
+  color: 0.3rem solid #633153 !important;
+  font-size: small !important ;
+  font-weight: bold !important ;
+}
+
+#policy-card {
+  display: flex;
+  max-height: fit-content;
+  max-height: -moz-fit-content;
+  min-width: fit-content;
+  min-width: -webkit-fill-available;
+  background-color: #e3d3de !important;
+}
+
+#policy-card p {
+  float: left !important;
+  margin: 0 !important;
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
+}
+
+#policy-card input[type="checkbox"] {
+  float: right !important;
+  margin: 0 !important;
+  margin-right: 0.7rem !important;
+  margin-top: 0.3rem !important;
+  padding-right: 2.5rem !important;
+  border: solid #633153 0.5px !important;
+}
+
+#policy-card input[type="checkbox"]:checked {
+  color: #633153 !important;
+  background-color: #633153 !important;
+}
+
+#policy-button {
+  background-color: #633153 !important;
+  color: white;
+  width: fit-content !important;
+  border-radius: 5px;
+  padding-bottom: 1rem;
+  box-shadow: none;
+  border: 0;
+  background: none;
+  padding: 0.2rem 1.5rem;
+}
+#policy-button:hover {
+  color: #633153 !important;
+  background-color: #e3d3de !important;
+}
+
+/* INPUT FOCUS */
+/* INPUT FOCUS COLOR  */
+.form-control:focus,
+.form-select:focus {
+  border-color: #633153 !important;
+  box-shadow: inset 0 0.1px 0.1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(234, 168, 236, 0.6) !important;
+}
+
+.form-select > option {
+  background-color: #633153;
+  color: white;
+}
+
+.dough-data {
+  display: none !important ;
+}
+
+.table-inflow {
+  background-color: #bbe5b3;
+  color: #414f3e;
+  border: none;
+  font-size: small;
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.6rem;
+}
+
+.table-outflow {
+  background-color: #fdefcb;
+  color: #d97724;
+  border: none;
+  font-size: small;
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.6rem;
+}

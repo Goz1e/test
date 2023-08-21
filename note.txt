@@ -1,0 +1,23 @@
+<p className="pt-2">
+                This is your <strong>TEST</strong> API Key and can be used while
+                developing your platform.
+              </p>
+              <br />
+              <div className="row">
+                <div className="col-md-4">
+                  <div class="input-group ">
+                    <input
+                      type="password"
+                      class="form-control"
+                      placeholder="****************"
+                      aria-label="Recipient's username with two button addons"
+                    />
+                    <button class="btn btn-outline-secondary" type="button">
+                      Button
+                    </button>
+                    <button class="btn btn-outline-secondary" type="button">
+                      Button
+                    </button>
+                  </div>
+                </div>
+              </div>
